@@ -71,7 +71,7 @@ var middleware = {
 
 
 app.get('/', function(req, res){
-	res.send('Hello Express');
+	res.send('Hello Express!');
 
 });
 app.listen(3000);
